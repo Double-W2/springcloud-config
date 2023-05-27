@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: springcloud-config-dept
+    name: springcloud-config-eureka
   profiles: dev
 
 eureka:
@@ -17,16 +17,16 @@ eureka:
 
 ---
 server:
-  port: 7001
+  port: 7002
 
 spring:
   application:
-    name: springcloud-config-dept
+    name: springcloud-config-rureka
   profiles: test1
 
 eureka:
   instance:
-    hostname: eureka7001.com
+    hostname: eureka7002.com
   client:
     register-with-eureka: false  #是否向eureka注册中心注册自己
     fetch-registry: false #如果为false，表示自己就是eureka注册中心
@@ -35,16 +35,16 @@ eureka:
 
 ---
 server:
-  port: 7001
+  port: 7003
 
 spring:
   application:
-    name: springcloud-config-dept
+    name: springcloud-config-eureka
   profiles: test2
 
 eureka:
   instance:
-    hostname: eureka7001.com
+    hostname: eureka7003.com
   client:
     register-with-eureka: false  #是否向eureka注册中心注册自己
     fetch-registry: false #如果为false，表示自己就是eureka注册中心
