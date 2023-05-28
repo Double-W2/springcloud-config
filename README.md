@@ -1,2 +1,2 @@
 # springcloud-config
-springcloud-config 配置信息
+springcloud-config 分布式配置中心 服务器端
