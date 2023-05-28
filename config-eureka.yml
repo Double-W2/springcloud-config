@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: springcloud-config-eureka
+    name: spring-cloud-config-eureka
   profiles: dev
 
 eureka:
@@ -21,7 +21,7 @@ server:
 
 spring:
   application:
-    name: springcloud-config-rureka
+    name: spring-cloud-config-rureka
   profiles: test1
 
 eureka:
@@ -39,7 +39,7 @@ server:
 
 spring:
   application:
-    name: springcloud-config-eureka
+    name: spring-cloud-config-eureka
   profiles: test2
 
 eureka:

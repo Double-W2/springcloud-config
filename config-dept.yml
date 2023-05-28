@@ -9,7 +9,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: springcloud-config-dept
+    name: spring-cloud-config-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,7 +36,7 @@ mybatis:
 spring:
   profiles: test1
   application:
-    name: springcloud-config-dept
+    name: spring-cloud-config-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -63,7 +63,7 @@ mybatis:
 spring:
   profiles: test2
   application:
-    name: springcloud-config-dept
+    name: spring-cloud-config-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
