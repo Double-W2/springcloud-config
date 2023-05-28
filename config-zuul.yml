@@ -24,5 +24,3 @@ zuul:
     myDept.path: /my.dept/**  #起别名
   ignored-services: "*"  #过滤掉真实的服务名称
   prefix: /zcm  #设置访问前缀
-
----
